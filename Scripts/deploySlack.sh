@@ -11,7 +11,7 @@
 ####################################################################################################
 
 #Curl the download for Slack
-curl https://downloads.slack-edge.com/mac_releases/Slack-4.1.2-macOS.dmg -o /tmp/slack.dmg
+curl https://downloads.slack-edge.com/mac_releases/Slack-4.3.3-macOS.dmg -o /tmp/slack.dmg
 
 #Mount the installer
 hdiutil attach -nobrowse -quiet /tmp/slack.dmg
